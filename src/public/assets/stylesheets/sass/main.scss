@@ -1,6 +1,5 @@
 $image: 'assets/images/';
 
-<<<<<<< HEAD
 
 @import "lib/_animate";
 @import "lib/_bootstrap";
@@ -10,18 +9,9 @@ $image: 'assets/images/';
 @import "lib/_slick";
 @import "lib/_var";
 
-@import "modules/_header";
-@import "modules/_preloader";
-=======
-@import "lib/_bootstrap";
-@import "lib/_font-awesome";
-@import "lib/_reset";
-@import "lib/_var";
-@import "lib/_normalize";
-@import "lib/_slick";
 
 @import "modules/_header";
->>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
+@import "modules/_preloader";
 body{
 
 }

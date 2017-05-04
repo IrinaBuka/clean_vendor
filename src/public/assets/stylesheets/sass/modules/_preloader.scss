@@ -16,6 +16,6 @@
 
     margin: (-$loader-size/2) 0 0 (-$loader-size/2);
 
-    @include loader03($color: $blue-dark);
+    @include loader03($color: red);
   }
 }
