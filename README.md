@@ -1,2 +1,4 @@
 Введите команду:
-npm init
+<br>
+npm init<br>
+npm install

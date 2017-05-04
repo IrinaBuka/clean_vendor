@@ -27,6 +27,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.11",
     "imagemin-pngquant": "^5.0.0"
+
   },
   "dependencies": {},
   "description": "clean project"

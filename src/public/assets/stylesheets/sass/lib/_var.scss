@@ -2,11 +2,16 @@
   &:after {
     display: block;
     clear: both;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
     content: '';
   }
 }
 @mixin block-center {
   position: relative;
+<<<<<<< HEAD
   max-width: 1420px;
   margin: 0 auto;
   padding-right: 10px;
@@ -14,33 +19,66 @@
   @include clear;
 }
 
+=======
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  @include clear;
+}
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
 .clear {
   &:after {
     display: block;
     clear: both;
+<<<<<<< HEAD
     content: '';
   }
 }
 
 .block-center {
   position: relative;
+=======
+
+    content: '';
+  }
+}
+.block-center {
+  position: relative;
+
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
   max-width: 1420px;
   margin: 0 auto;
   padding-right: 10px;
   padding-left: 10px;
+<<<<<<< HEAD
   @include clear;
 }
 
 .content-block {
   overflow: hidden;
 }
+=======
+
+  @include clear;
+}
+.content-block {
+  overflow: hidden;
+}
+
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
 @mixin appearanceCustom($value) {
   -webkit-appearance: $value;
   -moz-appearance: $value;
   -ms-appearance: $value;
   -o-appearance: $value;
   appearance: $value;
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
   &::-ms-expand {
     display: none;
   }
@@ -59,6 +97,7 @@
   -o-transition: $args;
   transition: $args;
 }
+<<<<<<< HEAD
 @mixin animations($value) {
   -webkit-animation: $value;
   -moz-animation: $value;
@@ -83,6 +122,15 @@
   }
 }
 @mixin translate($x, $y) {
+=======
+@mixin placeholder-form {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+@mixin translate ($x, $y) {
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
   @include transform(translate($x, $y));
 }
 @mixin border-radius($radius) {
@@ -90,22 +138,35 @@
   border-radius: $radius;
   background-clip: padding-box;
 }
+<<<<<<< HEAD
 @mixin social-icon($color) {
   color: $color;
   border-color: $color;
   @include transition(.3s);
 
   &:hover {
+=======
+@mixin social-icon($color){
+  color: $color;
+  border-color: $color;
+  @include transition(.3s);
+  &:hover{
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
     opacity: 1;
     color: #fff;
     background: $color;
   }
 }
+<<<<<<< HEAD
 @mixin display-inline($align) {
+=======
+@mixin display-inline($align){
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
   display: inline-block;
   vertical-align: $align;
   font-size: 14px;
 }
+<<<<<<< HEAD
 @mixin triangle-bottom($color) {
   position: relative;
 
@@ -132,14 +193,24 @@
 @mixin stickyFooter($footerHeight, $wrapSelector, $footerSelector) {
   body,
   html {
+=======
+@mixin stickyFooter($footerHeight, $wrapSelector, $footerSelector) {
+  html, body {
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
     height: 100%;
   }
 
   #{$wrapSelector} {
     min-height: 100%;
+<<<<<<< HEAD
 
     &:after {
       display: block;
+=======
+    &:after {
+      display: block;
+
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
       content: '';
     }
   }
@@ -150,6 +221,14 @@
 
   #{$footerSelector} {
     min-height: $footerHeight;
+<<<<<<< HEAD
     margin-top: -$footerHeight;
   }
 }
+=======
+
+    margin-top: -$footerHeight;
+  }
+}
+
+>>>>>>> d9be0fb246889db5d44a87799f3a80799f7392e1
